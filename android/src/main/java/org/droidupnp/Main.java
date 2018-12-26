@@ -20,6 +20,7 @@
 package org.droidupnp;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -53,7 +54,7 @@ import java.net.NetworkInterface;
 import java.net.UnknownHostException;
 import java.util.Enumeration;
 
-public class Main extends AppCompatActivity {
+public class Main extends Activity {
     private static final String TAG = "Main";
     private static final int REQUEST_READ_EXT_STORAGE = 12345;
 
